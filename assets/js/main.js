@@ -13,6 +13,9 @@ jQuery('.partners-slider').owlCarousel({
 		dotsEach: 3,
 	  },
 	  500: {
+		items: 1,
+	  },
+	  768: {
 		items: 2,
 	  },
 	  991: {
