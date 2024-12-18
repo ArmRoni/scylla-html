@@ -1,0 +1,705 @@
+@media only screen and (max-width: 1600px) {
+  .banner-photo {
+      max-width: 650px;
+  }
+  .banner-photo img {
+    width: 100%;
+  }
+  .south-carolina-info {
+      padding-right: 30px;
+      width: 48%;
+  }
+  .south-carolina-info h2 {
+      font-size: 80px;
+      line-height: 80px;
+  }
+  .south-carolina-photo {
+      width: 48%;
+  }
+  .crime-overlay h5 {
+    font-size: 30px;
+    line-height: 30px;
+  }
+  .partners-area {
+    margin: 0px;
+  }
+  
+}
+@media only screen and (max-width: 1440px) {
+  .blog-item-info {
+    padding: 30px;
+  }
+  .blog-item:first-child .blog-photo img,
+  .blog-item:first-child .blog-photo {
+    height: 100%;
+    object-fit: cover;
+  }
+  .common-title h2, .south-carolina-info h2 {
+    font-size: 80px;
+    line-height: 80px;
+  }
+  .location-card {
+    padding: 30px 24px 30px 30px;
+  }
+  .location-card h2 {
+    font-size: 40px;
+    line-height: 40px;
+  }
+  .location-card p {
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+}
+@media only screen and (max-width: 1366px) {
+  .logo a {
+    width: 180px;
+    padding: 0px 20px;
+  }
+
+  .logo a img {
+    width: 100%;
+  }
+
+  .logo a::after {
+    height: 116px;
+    background-size: contain;
+  }
+
+  .btn-box a {
+    font-size: 24px;
+  }
+
+  .btn-box span {
+    font-size: 15px;
+    line-height: 30px;
+  }
+
+  .header {
+    padding-top: 8px;
+    padding-bottom: 8px;
+  }
+
+  nav ul {
+    gap: 28px;
+  }
+  .banner-photo {
+      max-width: 550px;
+  }
+  .banner-text h1 {
+    font-size: 80px;
+    line-height: 80px;
+  }
+  .banner-text p {
+      line-height: 30px;
+      padding-bottom: 30px;
+      font-size: 20px;
+  }
+  .banner-text {
+      padding-left: 45px;
+  }
+  .south-carolina-info h2 {
+      font-size: 60px;
+      line-height: 60px;
+  }
+  blockquote {
+      font-size: 25px;
+      line-height: 30px;
+      padding-left: 20px;
+      margin-bottom: 50px;
+      margin-top: 22px;
+  }
+  .south-carolina-info p {
+      line-height: 32px;
+      padding-bottom: 28px;
+      font-size: 20px;
+  }
+  .crime-box-wrap {
+      gap: 25px;
+  }
+  .crime-box-sigle {
+      width: calc((100% - 50px) / 3);
+  }
+  .crime-box-sigle {
+    gap: 25px;
+  }
+  .crime-overlay {
+      padding: 30px 20px !important;
+  }
+  .common-title h2 {
+    font-size: 60px;
+    line-height: 60px;
+  }
+  .crime-box-wrap {
+      padding-top: 40px;
+  }
+  .common-title p br {
+    display: none;
+  }
+  .why-choose-title {
+      width: 46%;
+  }
+  .testimonial-box {
+    padding-left: 50px;
+  }
+  .testimonial-box {
+    width: 48%;
+  }
+  .our-clients-left {
+    width: 52%;
+  }
+  .partners-area {
+    margin: 0px;
+  }
+  .blog-item-info h4 {
+    font-size: 38px;
+    line-height: 38px;
+  }
+
+}
+
+@media only screen and (max-width: 1200px) { 
+  .banner-photo {
+    max-width: 500px;
+  }
+  .crime-overlay h5 {
+      font-size: 22px;
+      line-height: 22px;
+  }
+  .testimonial-box {
+    padding-left: 40px;
+  }
+  .testimonial-box {
+    width: 40%;
+  }
+  .our-clients-left {
+    width: 60%;
+  }
+  .testimonial-box {
+    height: 928px;
+  }
+  .blog-item-info  {
+    padding: 20px;
+  }
+  .blog-item-info span, .blog-item-info p {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .blog-item-info span {
+    padding-top: 35px;
+  }
+  .view-btn {
+    font-size: 28px;
+    line-height: 33px;
+    padding: 12px 15px;
+  }
+  .location-card {
+    padding: 24px 20px 20px 20px;
+  }
+  .location-card h2 {
+      font-size: 30px;
+      line-height: 30px;
+      padding-bottom: 20px;
+  }
+  .location-card h4 {
+      font-size: 18px;
+      line-height: 20px;
+      padding-bottom: 14px;
+  }
+  .directions-btn {
+    padding: 8px 20px;
+  }
+  .location-card h6 {
+    font-size: 22px;
+    line-height: 22px;
+  }
+  .widget-inner {
+    width: 320px;
+    padding-right: 10px;
+  }
+
+}
+@media only screen and (max-width: 991px) {
+
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .menu-item-has-children>ul {
+    display: none;
+  }
+
+  .menu-item-has-children.submenu-active>ul {
+    display: block;
+  }
+
+  .menu-toggle {
+    background: #333;
+    color: #fff;
+    border: none;
+    padding: 2px 8px;
+    font-size: 20px;
+    cursor: pointer;
+    display: block;
+  }
+
+  .submenu-toggle {
+    cursor: pointer;
+    margin-left: 3px;
+    margin-top: -2px;
+    font-size: 1rem;
+  }
+
+  .menu-toggle {
+    display: block;
+  }
+
+  .py {
+    padding-left: 13px;
+    padding-right: 13px;
+  }
+
+  .logo a {
+    width: 130px;
+    padding: 0px 20px;
+  }
+
+  .logo a::after {
+    height: 90px;
+  }
+
+  .menu-toggle {
+    order: 3;
+  }
+
+  .btn-box span {
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  .btn-box a {
+    font-size: 18px;
+  }
+  .mean-bar {
+    background: #333; 
+  }
+  
+  .mean-nav ul li a {
+    color: #fff; 
+  }
+  
+  .mean-nav ul li a:hover {
+    color: #ff9800;
+  }
+  .mean-bar {
+    position: absolute !important;
+    right: 0px;
+    top: 0px;
+  } 
+  header.py.header {
+      margin-top: 52px;
+  }
+  .btn-box {
+    width: 104px;
+    min-width: 104px;
+  }
+  .mean-container .mean-nav ul {
+    display: inline;
+  }
+  nav ul li ul {
+    position: initial;
+    background: transparent;
+    transition: initial;
+    border: none;
+  }
+  nav ul li ul {
+    opacity: 1;
+    transform: scaleY(1);
+    visibility: visible;
+  }
+  nav ul li ul li a {
+    color: var(--white) !important;
+  }
+  .mean-container .mean-nav ul li a.mean-expand {
+    right: 15px;
+  }
+  .mean-container a.meanmenu-reveal {
+    right:0px !important;
+    left: initial !important;
+  }
+  .banner-content {
+    flex-direction: column;
+  }
+  .banner-info {
+      width: 100%;
+  }
+  .banner-photo {
+      max-width: 500px;
+      position: relative;
+      margin-left: auto;
+      margin-right: -13px;
+  } 
+  .banner-info .btn-box a {
+    width: 100%;
+  }
+  .banner-area {
+      padding-top: 60px;
+      padding-bottom: 0px;
+  }
+  .banner-text h6 {
+    font-size: 16px;
+    line-height: 22px;
+  }
+  .banner-text h6 br {
+    display: none;
+  }
+  .banner-text {
+      padding-left: 10px;
+  }
+  .banner-text h1 {
+      font-size: 45px;
+      line-height: 45px;
+  }
+  .banner-text p {
+    line-height: 24px;
+    padding-bottom: 15px;
+    font-size: 16px;
+  }
+  .banner-scroll-box ul li a {
+      width: 24px;
+      height: 24px;
+      font-size: 14px;
+  }
+  .banner-photo::after {
+      width: 270px;
+      height: 256px;
+      background-size: cover;
+  }
+
+  section.partners-area {
+    margin: 0px;
+  }
+  .partners-area {
+      padding:30px 13px
+  }
+  .south-carolina-area {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    overflow: hidden;
+  }
+  .south-carolina-container  {
+    flex-direction: column;
+  }
+  .south-carolina-info {
+      padding-right: 0px;
+      width: 100%;
+  } 
+  .south-carolina-photo {
+    width: 100%;
+    padding-top: 20px;
+    position: initial;
+  }
+  .south-carolina-info h2 {
+      font-size: 40px;
+      line-height: 40px;
+  }
+  blockquote {
+    font-size: 22px;
+    line-height: 28px;
+    padding-left: 20px;
+    margin-bottom: 30px;
+    margin-top: 10px;
+  }
+  .south-carolina-info p {
+      line-height: 24px;
+      padding-bottom: 19px;
+      font-size: 16px;
+  }
+  .south-carolina-photo {
+    margin-right: -24px;
+  }
+  .criminal-defense-area {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+  .criminal-defense-area .common-title {
+    flex-direction: column;
+    gap: 0px;
+  }
+  .criminal-defense-area .common-title p ,
+  .criminal-defense-area .common-title h2 {
+      width: 100%;
+  }
+  .common-title h2 {
+    font-size: 30px;
+    line-height: 30px;
+  }
+  .common-title h2 br {
+    display: none;
+  }
+  .common-title p {
+    font-size:16px;
+    line-height: 24px;
+  }
+  .crime-box-wrap {
+    padding-bottom: 40px;
+  }
+  .get-free-banner {
+    padding:30px 20px;
+  }
+  .get-free-banner h3 {
+    font-size: 30px;
+    line-height: 30px;
+    padding-bottom: 10px;
+  }
+  .get-free-banner p {
+    font-size: 16px;
+    line-height: 24px;
+    padding-bottom: 30px;
+  }
+  .get-free-banner .btn-box span {
+      font-size: 16px;
+      padding-bottom: 6px;
+  }
+  .get-free-banner .btn-box a {
+      font-size: 22px;
+  }
+  .get-free-banner .btn-box {
+    width: auto;
+    min-width: auto;
+  }
+  .get-free-banner  {
+    flex-direction:column;
+    text-align: center;
+  }
+  .get-free-banner h3 br {
+    display: none;
+  }
+  .why-choose-area {
+      padding-top: 130px;
+  }
+  .why-choose-area .common-title h2 {
+      padding-bottom: 15px;
+  }
+  .why-choose-text {
+    flex-direction: column;
+    gap:10px;
+  }
+  .why-choose-info,
+  .why-choose-title {
+      width: 100%;
+  } 
+  .why-choose-area .common-title {
+      padding-bottom: 30px;
+  }
+  .why-choose-title h3 {
+    font-size: 24px;
+    line-height: 27px;
+  }
+  .why-choose-info p {
+      font-size: 16px;
+      line-height: 22px;
+  }
+  .why-choose-text {
+    padding-bottom: 24px;
+  }
+  .our-clients-content  {
+    flex-direction: column;
+  }
+  .our-clients-left {
+    width: 100%;
+    padding-top:40px;
+    padding-left: 0px;
+    padding-bottom: 40px;
+  }
+  .our-clients-content::before, .our-clients-content::after {
+    display: none;
+  }
+  .testimonial-box {
+    width: 100%;
+    padding-left: 0px;
+  }
+  .our-clients-logo {
+    padding-top: 30px;
+  }
+  .testimonial-box {
+    height: auto;
+    padding-bottom: 40px;
+  }
+  .our-blog-area {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+  .blog-content {
+    padding-top: 30px;
+  }
+  .blog-content {
+    gap:20px
+  }
+  .blog-item {
+    width: calc((100% - 40px) / 3);
+  }
+  .blog-item-info h4 {
+    font-size: 28px;
+    line-height: 30px;
+  }
+  .location-card p {
+    font-size: 14px;
+    line-height: 22px;
+  }
+  .location-card {
+    padding: 20px 12px 20px 12px;
+  }
+  .directions-btn {
+      padding: 8px 10px;
+  }
+  .footer-main  {
+    flex-direction: column;
+  }
+  .footer-widget  {
+    width: 100% !important;
+  }
+  .widget-inner {
+      width:100%;
+      padding-right: 0px;
+      max-width: 100%;
+  }
+
+}
+
+@media screen and (max-width:768px) {
+  .crime-box-sigle {
+    width: 100%;
+  }
+  .crime-box-wrap  {
+    flex-direction: column;
+  }
+  .clients-logo-item {
+      width: 100%;
+  } 
+  .blog-item {
+    width: 100%;
+  }
+  .blog-item-info {
+    padding: 30px 0px;
+    padding-top: 0px;
+  }
+  .view-btn {
+    font-size: 16px;
+    line-height: 16px;
+    padding: 8px 14px;
+    gap:10px;
+  }
+  .view-btn img {
+    width: 20px;
+  }
+  .blog-item-info h4 {
+    font-size: 24px;
+    line-height: 26px;
+  }
+  .our-blog-area {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+  .blog-item:first-child .blog-item-info {
+    padding: 50px 20px 40px 20px;
+  }
+  .blog-item-info span {
+      padding-top: 22px;
+  }
+  .locations {
+    flex-direction: column;
+    position: initial !important;
+    flex-wrap: wrap;
+    margin-top: -50px;
+    padding-bottom: 40px;
+  }
+  .location-card {
+    width: auto;
+    text-align: center;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  }
+  .directions-btn {
+    margin: 0 auto;
+  }
+  .footer {
+    padding-top: 60px;
+  }
+  .widget-inner a {
+    max-width: 200px;
+    margin: 0 auto;
+    display: block;
+  }
+  .widget-inner a img {
+    width: 100%;
+  }
+  .widget-inner p {
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+  }
+  .social-link {
+    margin-top: 30px;
+    gap:10px;
+    justify-content: center;
+  }
+  .social-link li a {
+    width: 40px;
+    height: 40px;
+    font-size: 18px;
+  }
+  .footer-widget h4 {
+    padding-bottom: 30px;
+  }
+  .footer-widget ul li {
+    font-size: 16px;
+    line-height: 20px;
+  }
+  .footer-widget-2 ul {
+    height: 170px;
+  }
+  .footer-form {
+    padding: 20px;
+  }
+  .footer-form p {
+    font-size: 16px;
+    line-height: 24px;
+    padding-bottom: 10px;
+  }
+  .footer-widget-3 h4 {
+    padding-bottom: 15px;
+  }
+  .input-filed {
+    height: 50px;
+    padding: 0px 15px;
+    font-size: 16px;
+  }
+  .copyright-text {
+    flex-direction: column;
+  }
+  .copyright-text ul {
+    padding-left: 0px;
+  }
+  .footer-main {
+    padding-bottom: 40px;
+  }
+  .copyright-text ul li, .copyright-text p {
+    font-size: 16px;
+    text-align: center;
+  }
+  .logo a::after {
+    top:-12px;
+  }
+  .copyright-content {
+    flex-direction: column;
+    align-items: center;
+  }
+  .copyright-text ul {
+    justify-content: center;
+  }
+  .copyright-content span {
+    margin-top: 20px;
+  }
+}
