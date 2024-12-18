@@ -3,7 +3,7 @@ jQuery('.partners-slider').owlCarousel({
 	responsiveClass: true,
 	autoplay: true,
 	nav: false,
-	
+	items:1,
 	margin:20,
 	dots: true,
 	autoplayTimeout: 5000,
